@@ -8,3 +8,15 @@
     --verde-médio: #A5A58D;
     --verde-escuro: #6B705C;
 }
+
+body{
+    background-color: var(--verde-claro);
+    display: flex;
+    justify-content: center;
+}
+
+.corpo{
+    background-color: var(--bege);
+    width: 60%;
+    height: 100vh; /*verificar isso dps*/
+}
