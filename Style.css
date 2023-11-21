@@ -7,6 +7,18 @@
     --verde-claro: #B7B7A4;
     --verde-médio: #A5A58D;
     --verde-escuro: #6B705C;
+    --fonte-principal: "Creamer";
+    --fonte-secundaria: "Source Code Pro", monospace;
+}
+
+h1{
+    font-size: 50px;
+    font-family: var(--fonte-principal);
+}
+
+p{
+    font-size: 18px;
+    font-family: var(--fonte-secundaria);
 }
 
 body{
@@ -19,4 +31,29 @@ body{
     background-color: var(--bege);
     width: 60%;
     height: 100vh; /*verificar isso dps*/
+}
+
+.titulo{
+    text-align: center;
+}
+
+.apresentacao{
+    display: flex;
+}
+
+.apresentacao__texto{
+    width: 65%;
+}
+
+.apresentacao__imagem{
+    width: 35%;
+}
+
+.apresentacao__imagem img{
+    width: 80%;
+}
+
+@font-face {
+    font-family: "Creamer";
+    src: url(fonts/creamer/Creamer\ .ttf);
 }
