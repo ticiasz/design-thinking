@@ -16,9 +16,16 @@ h1{
     font-family: var(--fonte-principal);
 }
 
+h3{
+    font-size: 25px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+}
+
 p{
     font-size: 18px;
     font-family: var(--fonte-secundaria);
+    color: var(--preto);
 }
 
 body{
@@ -31,18 +38,31 @@ body{
     background-color: var(--bege);
     width: 60%;
     height: 100vh; /*verificar isso dps*/
+    padding: 2rem 3rem;
 }
 
 .titulo{
     text-align: center;
+    color: var(--verde-escuro);
+    text-shadow: 1px 3px var(--preto);
 }
 
 .apresentacao{
     display: flex;
+    margin: 2rem 0;
 }
 
 .apresentacao__texto{
     width: 65%;
+    padding: 2rem;
+}
+
+.apresentacao__texto h3{
+    padding: 0 0 0.5rem 2rem;
+}
+
+.apresentacao__texto p{
+    text-align: justify;
 }
 
 .apresentacao__imagem{
