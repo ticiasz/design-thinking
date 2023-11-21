@@ -67,10 +67,12 @@ body{
 
 .apresentacao__imagem{
     width: 35%;
+    text-align: center;
 }
 
 .apresentacao__imagem img{
-    width: 80%;
+    width: 75%;
+    border-radius: 80px;
 }
 
 @font-face {
