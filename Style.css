@@ -88,6 +88,7 @@ body{
 
 .texto__lista li{
     line-height: 1.25rem;
+    font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__imagem{
