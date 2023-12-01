@@ -76,6 +76,11 @@ body{
     text-align: justify;
 }
 
+.apresentacao__texto span{
+    font-weight: 600;
+    border-bottom: 2px solid var(--marrom);
+}
+
 .texto__lista{
     background-color: var(--bege-escuro);
     border-radius: 15px;
