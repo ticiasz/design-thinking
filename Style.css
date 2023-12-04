@@ -48,7 +48,7 @@ body{
 .corpo{
     background-color: var(--bege);
     width: 60%;
-    height: 100vh; /*verificar isso dps*/
+    /*height: 100vh; verificar isso dps*/
     padding: 2rem 3rem;
 }
 
@@ -118,6 +118,27 @@ body{
     border-radius: 10px;
     padding: 0.5rem;
     margin: 1rem;
+}
+
+.conteudo__bloco{
+    display: flex;
+}
+
+.bloco__texto{
+    text-align: justify;
+    margin: 1.5rem;
+}
+
+.bloco__observacao{
+    background-color: var(--bege-escuro);
+    border-radius: 15px;
+    box-shadow: 5px 5px var(--marrom);
+    width: 95%;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 @font-face {
