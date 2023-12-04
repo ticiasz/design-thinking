@@ -7,6 +7,7 @@
     --verde-claro: #B7B7A4;
     --verde-médio: #A5A58D;
     --verde-escuro: #6B705C;
+    --verde-mais-escuro: #545946;
     --fonte-principal: "Creamer";
     --fonte-secundaria: "Source Code Pro", monospace;
 }
@@ -83,6 +84,8 @@ body{
 
 .texto__lista{
     background-color: var(--bege-escuro);
+    color: var(--verde-mais-escuro);
+    font-size: 17px;
     border-radius: 15px;
     box-shadow: 5px 5px var(--marrom);
     width: 60%;
@@ -124,6 +127,10 @@ body{
     display: flex;
 }
 
+.conteudo__bloco span{
+    font-weight: 600;
+}
+
 .bloco__texto{
     text-align: justify;
     margin: 1.5rem;
@@ -139,6 +146,10 @@ body{
     text-align: center;
     display: flex;
     align-items: center;
+}
+
+.bloco__observacao p{
+    color: var(--verde-mais-escuro);
 }
 
 @font-face {
