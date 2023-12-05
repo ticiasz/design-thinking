@@ -92,9 +92,6 @@ body{
     margin: 1rem auto;
     padding: 1rem 2rem;
     list-style-type: circle;
-}
-
-.texto__lista li{
     line-height: 1.25rem;
     font-family: var(--fonte-secundaria);
 }
@@ -134,6 +131,15 @@ body{
 .bloco__texto{
     text-align: justify;
     margin: 1.5rem;
+}
+
+.bloco__texto-lista{
+    font-size: 17px;
+    font-family: var(--fonte-secundaria);
+    line-height: 1.25rem;
+    color: var(--preto);
+    list-style-type: decimal;
+    margin: 1rem 2rem;
 }
 
 .bloco__observacao{
