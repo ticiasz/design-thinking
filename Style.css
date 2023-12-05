@@ -1,5 +1,4 @@
 :root{
-    --branco: #F8F6F2;
     --preto: #20211C;
     --bege: #FFE8D6;
     --bege-escuro: #DDBEA9;
@@ -122,6 +121,7 @@ body{
 
 .conteudo__bloco{
     display: flex;
+    align-items: center;
 }
 
 .conteudo__bloco span{
@@ -147,6 +147,7 @@ body{
     border-radius: 15px;
     box-shadow: 5px 5px var(--marrom);
     width: 95%;
+    height: fit-content;
     margin: 1.5rem;
     padding: 1rem 2rem;
     text-align: center;
